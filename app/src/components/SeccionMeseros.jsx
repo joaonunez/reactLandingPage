@@ -7,7 +7,7 @@ export function SeccionMeseros() {
         <h2>En Nuestro Café Nunca Cobramos Propinas...</h2>
         <h6>Por Lo Que Acontinuacion Puedes Dejar Las Propinas Voluntariamente A Través De La Plataforma</h6>
       </div>
-      <div>
+      <div className="mt-5 mb-5 d-flex justify-content-around">
         <Meseros></Meseros>
       </div>
     </>
