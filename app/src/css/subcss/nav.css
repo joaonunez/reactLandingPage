@@ -1,0 +1,9 @@
+.a-item{
+    width: auto;
+    background-color: burlywood;
+    font-size: 20px;
+    text-align: center;
+}
+.a-item:hover{
+    background-color: cadetblue;
+}

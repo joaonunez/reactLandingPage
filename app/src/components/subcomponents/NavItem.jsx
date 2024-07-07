@@ -1,28 +1,11 @@
+import navItems from "../../scripts/nav/navitems";
 export function NavItem() {
-  let navItems = [
-    {
-      id: 1,
-      title: "Inicio",
-    },
-    {
-      id: 2,
-      title: "Productos",
-    },
-    {
-      id: 3,
-      title: "Sobre Nosotros",
-    },
-    {
-      id: 4,
-      title: "Contacto",
-    },
-  ];
   return (
     <>
       {navItems.map((item) => (
-        <li className="nav-item" key={item.id+item.title}>
+        <li className="nav-item navitem" key={item.id+item.title}>
           <a
-            className="nav-link active"
+            className="nav-link active a-item"
             aria-current="page"
             href="https://www.youtube.com"
             target="_blank"
