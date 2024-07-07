@@ -1,4 +1,6 @@
+import React from "react";
 import navItems from "../../scripts/nav/navitems";
+
 export function NavItem() {
   return (
     <>
