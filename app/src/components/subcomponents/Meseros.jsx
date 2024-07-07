@@ -2,9 +2,9 @@ import React from "react";
 import meseros from "../../scripts/cards/meseros";
 export function Meseros() {
   return (
-    <div className="m-auto d-flex flex-row justify-content-center">
+    <div className="m-auto contenedor-meseros">
         {meseros.map((mesero)=>(
-            <div key={mesero.id+mesero.nombre} className="card col-xxl-2" style={{ width: "18rem" }}>
+            <div key={mesero.id+mesero.nombre} className="card" style={{ width: "18rem" }}>
             <img src={mesero.foto} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">{mesero.nombre}</h5>
