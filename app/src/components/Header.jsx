@@ -1,5 +1,6 @@
 import React from "react";
-import { NavItem } from "./subcomponents/NavItem";
+import NavItem from "./subcomponents/NavItem"
+import navItems from "../scripts/nav/navitems";
 
 export function Header() {
   return (
@@ -24,7 +25,10 @@ export function Header() {
           id="navbarNav"
         >
           <ul className="navbar-nav">
-            <NavItem />
+            {navItems.map((item)=>(
+              <NavItem key={item.id} title={item.title}></NavItem>
+            ))
+            }
           </ul>
         </div>
       </div>
